@@ -11,7 +11,7 @@ function App() {
   const [puppies, setPuppies] = useState(puppyList);
   const [featPupId, setFeatPupId] = useState(null);
   const [featuredPup, setFeaturedPup] = useState(null)
-
+}
   console.log(puppies)
   return 
   <>
@@ -36,7 +36,7 @@ function App() {
         </ul>
       </div>
     )}
-    
+
   </div>
 
   </>
