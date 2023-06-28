@@ -1,3 +1,5 @@
+import {puppyList} from './data.js'
+
 export const puppyList = [
     {
       id: 1,
