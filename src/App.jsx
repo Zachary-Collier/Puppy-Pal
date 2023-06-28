@@ -13,7 +13,9 @@ function App() {
   const [featuredPup, setFeaturedPup] = useState(null)
 
   console.log(puppies)
-  return <div>
+  return 
+  <>
+  <div>
     {puppies.map((puppy) => {
       return <p onClick = { () => {
         setFeaturedPup(puppy)
@@ -24,7 +26,7 @@ function App() {
 
     }
 
-    { featuredPup && <p>{ featPupId }</p> }</p>}
+    { featuredPup && <p>{ featPupId }</p> }</p>
     {featPupId && (
       <div>
         <h2>{featuredPup.name}</h2>
@@ -35,6 +37,9 @@ function App() {
       </div>
     )}
   </div>
+
+  </>
+  )
 }
 
 export default App;
