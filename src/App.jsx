@@ -26,7 +26,7 @@ function App() {
 
     }
 
-    { featuredPup && <p>{ featPupId }</p> }</p>
+    { featuredPup && <p>{ featPupId }</p>
     {featPupId && (
       <div>
         <h2>{featuredPup.name}</h2>
@@ -36,11 +36,12 @@ function App() {
         </ul>
       </div>
     )}
+    
   </div>
 
   </>
-  )
-}
+    }
+
 
 export default App;
 
